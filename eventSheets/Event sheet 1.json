@@ -1,0 +1,56 @@
+{
+	"name": "Event sheet 1",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 941142236559863,
+					"parameters": {
+						"key": 49
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Sprite",
+					"sid": 331270564959587,
+					"parameters": {
+						"animation": "\"Neutral\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 534732017703419
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 448279420866958,
+					"parameters": {
+						"key": 50
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Sprite",
+					"sid": 720530669322424,
+					"parameters": {
+						"animation": "\"Confused\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 333296048675118
+		}
+	],
+	"sid": 161386051059829
+}
